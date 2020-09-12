@@ -6,7 +6,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'pool1'
+  vmImage: 'windows-latest'
 
 steps:
 - task: PowerShell@2
