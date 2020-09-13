@@ -6,7 +6,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'az-agent-pool'
+  name: az-agent-pool
 
 steps:
 - task: PowerShell@2
